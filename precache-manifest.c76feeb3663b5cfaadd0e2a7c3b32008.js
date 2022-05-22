@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "beaf5d1cd74f88bbcd4f716ee91e500d",
+    "revision": "f8b03338bc1074fc7c170703581448ed",
     "url": "/andreipaliy/andrei_paliy_social_network.git/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andreipaliy/andrei_paliy_social_network.git/static/css/4.c50b9000.chunk.css"
   },
   {
-    "revision": "723df94bad1473d194fc",
+    "revision": "a68eb042cd9a1d14d3bc",
     "url": "/andreipaliy/andrei_paliy_social_network.git/static/css/main.27dc6bb7.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andreipaliy/andrei_paliy_social_network.git/static/js/4.b0d04832.chunk.js"
   },
   {
-    "revision": "723df94bad1473d194fc",
-    "url": "/andreipaliy/andrei_paliy_social_network.git/static/js/main.854fe29e.chunk.js"
+    "revision": "a68eb042cd9a1d14d3bc",
+    "url": "/andreipaliy/andrei_paliy_social_network.git/static/js/main.4de530ae.chunk.js"
   },
   {
     "revision": "e5bec2dae0b3b54a86f4",
