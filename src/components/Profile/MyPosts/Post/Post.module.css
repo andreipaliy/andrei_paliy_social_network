@@ -1,0 +1,46 @@
+.item {
+	display: flex;
+	justify-content: center;
+	color: black;
+	background-color: rgb(248, 248, 248);
+	margin: 60px 50px;
+	padding: 35px 30px;
+	font-size: 14px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.postMessage {
+	margin: 0 50px;
+	font-size: 16px;
+	line-height: 25px;
+}
+.item img {
+	width: 70px;
+	height: 70px;
+	border-radius: 30px;
+}
+
+.likesCount {
+	align-self: flex-end;
+	font-size: 17px;
+	position: relative;
+	cursor: pointer;
+}
+
+.likesCount::before {
+	content: url(../../../../assets/images/like.png);
+	position: absolute;
+	right: 21px;
+	bottom: -3px;
+}
+.userPost {
+	min-width: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.userPost p {
+	text-align: center;
+	font-weight: 400;
+	font-size: 18px;
+}

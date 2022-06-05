@@ -1,0 +1,84 @@
+.formControl.error input,
+.formControl.error textarea {
+	border-bottom: solid red 2px;
+}
+
+.formControl.error span {
+	color: red;
+}
+
+.formSummaryError {
+	border-bottom: red 1px solid;
+	padding: 5px;
+	color: red;
+}
+.loginForm {
+	margin: 40px 380px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+	padding-top: 40px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.logo {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 10px;
+}
+.header {
+	font-size: 28px;
+	margin-bottom: 10px;
+	color: rgb(88, 88, 88);
+}
+.input,
+.input:focus-visible {
+	height: 26px;
+	padding-left: 8px;
+	border: none;
+	border-bottom: 2px solid grey;
+	/* margin-top: 25px; */
+	font-size: 15px;
+}
+
+.input::placeholder {
+	font-size: 15px;
+	color: grey;
+}
+.input[type='checkbox'] {
+	margin-bottom: 0;
+	height: 12px;
+	text-transform: uppercase;
+}
+
+.loginBtn {
+	margin-top: 20px;
+	color: white;
+	font-size: 16px;
+	padding: 10px 30px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 3px;
+	cursor: pointer;
+	text-decoration: none;
+	display: block;
+}
+.loginBtn:hover {
+	background-color: rgb(53, 53, 53);
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.textArea {
+	width: 350px;
+	height: 100px;
+	padding: 9px;
+}
+.line {
+	width: 1px;
+	min-height: 30px;
+}

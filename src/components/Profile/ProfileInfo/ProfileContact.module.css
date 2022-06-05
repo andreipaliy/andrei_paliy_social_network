@@ -1,0 +1,14 @@
+.contactItem {
+	margin: 0;
+}
+.contactInfo {
+	text-decoration: none;
+	color: rgb(34, 28, 61);
+}
+.contactsHeader {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.header {
+	margin-bottom: 5px;
+}

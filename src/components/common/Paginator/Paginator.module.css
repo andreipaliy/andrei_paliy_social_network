@@ -1,0 +1,35 @@
+.paginator {
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+	padding: 7px 14px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	width: 520px;
+	border-radius: 92px;
+}
+
+.pageNumber.selectedPage {
+	border-color: rgb(207, 70, 70);
+	background-color: rgb(207, 70, 70);
+	color: white;
+}
+.pageNumber,
+.prevNextBtn {
+	display: inline-block;
+	color: rgb(102, 101, 101);
+	text-align: center;
+	line-height: 33px;
+	width: 35px;
+	height: 35px;
+	padding: auto;
+	border-radius: 50%;
+	border: 2px solid rgb(208, 109, 109);
+	cursor: pointer;
+	margin: 2px;
+}
+.prevNextBtn {
+	color: white;
+	background-color: rgb(208, 109, 109);
+	border-color: rgb(208, 109, 109);
+	line-height: 0px;
+}

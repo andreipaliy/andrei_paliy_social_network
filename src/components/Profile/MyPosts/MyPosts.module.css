@@ -1,0 +1,33 @@
+.postsBlock {
+	padding: 10px;
+}
+
+.posts {
+	margin-top: 50px;
+}
+/* .newPostInput {
+	border: 1px solid grey;
+} */
+.addPostBtn {
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding: 8px 148px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 3px;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	transition: all 0.4s;
+}
+.addPostBtn:hover {
+	background-color: rgb(57, 57, 57);
+}
+.newPostForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 47px 300px;
+	padding: -13px 20px;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}

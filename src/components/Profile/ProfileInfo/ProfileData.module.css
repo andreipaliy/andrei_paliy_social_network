@@ -1,0 +1,40 @@
+.profileData {
+	margin-left: 30px;
+}
+
+.line {
+	min-width: 100px;
+	height: 1px;
+	background-color: grey;
+	margin: 34px 0;
+}
+
+.name {
+	font-size: 25px;
+}
+.aboutMe {
+	line-height: 29px;
+}
+
+.lookingForAJob {
+	margin-bottom: 15px;
+}
+.lookingForAJobDescription {
+	margin-bottom: 15px;
+}
+.editProfileBtn {
+	font-size: 14px;
+	padding: 8px 20px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 3px;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	transition: all 0.4s;
+}
+.editProfileBtn:hover {
+	background-color: rgb(57, 57, 57);
+}
+.descriptionItem {
+	margin-top: 20px;
+}
