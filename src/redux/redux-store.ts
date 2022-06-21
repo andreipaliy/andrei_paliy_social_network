@@ -20,6 +20,14 @@ let rootReducer = combineReducers({
 type RootReducerType = typeof rootReducer
 export type AppStateType = ReturnType<RootReducerType>
 
+// gettind action.types
+type actionTypeIntermmediar<T> = T extends { [key: string]: infer U }
+	? U
+	: never
+export type getActionsType<
+	T extends { [key: string]: (...args: any[]) => any }
+> = ReturnType<actionTypeIntermmediar<T>>
+
 // @ts-ignore
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 const store = createStore(

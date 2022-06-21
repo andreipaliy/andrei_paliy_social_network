@@ -2,15 +2,12 @@ import React from 'react'
 import { connect } from 'react-redux'
 import {
 	follow,
-	setCurrentPage,
 	unfollow,
-	toggleFollowingProgress,
 	requestUsers,
 	userType,
 } from '../../redux/users-reducer'
 import Users from './Users'
 import Preloader from '../common/Preloader/Preloader'
-import { compose } from 'redux'
 import {
 	getCurrentPage,
 	getFollowingInProgress,
@@ -20,6 +17,7 @@ import {
 	getUsers,
 } from '../../redux/users-selectors'
 import { AppStateType } from '../../redux/redux-store'
+
 type OwnPropsType = {
 	title: string
 }
@@ -79,7 +77,6 @@ let mapStateToProps = (state: AppStateType): MapStatePropsType => {
 		followingInProgress: getFollowingInProgress(state),
 	}
 }
-// <TStateProps = {}, TDispatchProps = {}, TOwnProps = {}, State = DefaultState>
 export default connect<
 	MapStatePropsType,
 	MapDispatchPropsType,
@@ -88,8 +85,5 @@ export default connect<
 >(mapStateToProps, {
 	follow,
 	unfollow,
-	// setCurrentPage,
-	// toggleFollowingProgress,
-
 	getUsers: requestUsers,
 })(UsersContainer)

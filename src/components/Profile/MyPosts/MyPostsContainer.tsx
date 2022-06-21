@@ -13,7 +13,7 @@ const mapStateToProps = (state: AppStateType): MapStatePropsType => {
 
 const mapDispatchToProps = (dispatch: any): MapDispatchPropsType => {
 	return {
-		addPost: (newPostText: string) => {
+		addPost: newPostText => {
 			dispatch(addPostActionCreator(newPostText))
 		},
 	}
